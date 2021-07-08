@@ -1,0 +1,85 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "商城首页"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "商品分类"
+			}
+		},
+		{
+			"path": "pages/cart/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/goodsDetail/index",
+			"style": {
+				"navigationBarTitleText": "商品详情页"
+			}
+		},
+		{
+			"path": "pages/goodsList/index",
+			"style": {
+				"navigationBarTitleText": "商品列表",
+				"backgroundTextStyle":"dark",
+				"enablePullDownRefresh":true
+			}
+		}
+	],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/home0.png",
+				"selectedIconPath": "static/home.png"
+			},
+			{
+				"pagePath": "pages/category/index",
+				"text": "分类",
+				"iconPath": "static/category0.png",
+				"selectedIconPath": "static/category.png"
+			},
+			{
+				"pagePath": "pages/cart/index",
+				"text": "购物车",
+				"iconPath": "static/cart0.png",
+				"selectedIconPath": "static/cart.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "个人",
+				"iconPath": "static/person0.png",
+				"selectedIconPath": "static/person.png"
+			}
+		],
+		"backgroundColor": "#f5f5f5",
+		"color": "#000",
+		"selectedColor": "#1DA57A",
+		"borderStyle": "black"
+	},
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "微信商城",
+		"navigationBarBackgroundColor": "#ff7159",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+		
+		
+	}
+	
+}

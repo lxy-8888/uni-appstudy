@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["componets/tabbar/tabbar"],{1993:function(t,n,e){"use strict";var r;e.d(n,"b",(function(){return o})),e.d(n,"c",(function(){return c})),e.d(n,"a",(function(){return r}));var o=function(){var t=this,n=t.$createElement,e=(t._self._c,t.__map(t.tabList,(function(n,e){var r=t.__get_orig(n),o=t.__get_style([t.currentTabIndex==e?{color:t.tintColor}:{color:t.color}]),c=t.__get_style([t.currentTabIndex==e?{color:t.tintColor}:{color:t.color}]);return{$orig:r,s0:o,s1:c}})));t.$mp.data=Object.assign({},{$root:{l0:e}})},c=[]},3167:function(t,n,e){"use strict";e.r(n);var r=e("1993"),o=e("a3e0");for(var c in o)"default"!==c&&function(t){e.d(n,t,(function(){return o[t]}))}(c);e("5e97");var a,i=e("f0c5"),u=Object(i["a"])(o["default"],r["b"],r["c"],!1,null,null,null,!1,r["a"],a);n["default"]=u.exports},"5e97":function(t,n,e){"use strict";var r=e("6d1d"),o=e.n(r);o.a},"6d1d":function(t,n,e){},a3e0:function(t,n,e){"use strict";e.r(n);var r=e("c9c0"),o=e.n(r);for(var c in r)"default"!==c&&function(t){e.d(n,t,(function(){return r[t]}))}(c);n["default"]=o.a},c9c0:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var r={data:function(){return{tabList:[{icon:"iconhome",text:"首页"},{icon:"iconhome",text:"分享"},{icon:"iconhome",text:"购物车",badgeDot:!0},{icon:"iconcart",text:"立即购买",badgeDot:!0},{icon:"iconcart",text:"加入购物车",badgeDot:!0}],currentTabIndex:this.current}},props:{current:{type:[Number,String],default:0},backgroundColor:{type:String,default:"white"},color:{type:String,default:"#444444"},tintColor:{type:String,default:"#000000"}},methods:{switchTab:function(t){this.currentTabIndex=t,this.$emit("click",t)}}};n.default=r}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'componets/tabbar/tabbar-create-component',
+    {
+        'componets/tabbar/tabbar-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("3167"))
+        })
+    },
+    [['componets/tabbar/tabbar-create-component']]
+]);

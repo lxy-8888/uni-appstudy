@@ -1,0 +1,1 @@
+<view class="search"><navigator class="navigator" url="../../pages/search/index" open-type="navigate">请输入关键字搜索</navigator><text class="iconfont iconsearch"></text></view>

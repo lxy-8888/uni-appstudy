@@ -1,0 +1,1 @@
+.tabss{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;flex-direction:row;-webkit-box-pack:space-evenly;-webkit-justify-content:space-evenly;justify-content:space-evenly;height:80rpx;width:100%}.tabss .active{color:#ff7159}.tabss .who{width:33.3%;text-align:center;line-height:80rpx}
